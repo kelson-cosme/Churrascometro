@@ -3,7 +3,7 @@
 
 
 body,html{
-    background-image: url("/imagens/fundo.jpg");
+    background-image: url(" ./imagens/fundo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
