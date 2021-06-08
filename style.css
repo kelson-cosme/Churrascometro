@@ -1,0 +1,98 @@
+
+
+
+
+body,html{
+    background-image: url("/imagens/fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    min-width: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+#inputs{
+    margin-left: 5%;
+}
+input[type=number] {
+    width: 90%;
+    height: 40px;
+    margin-top: 5px; 
+    transition: .5s;   
+}
+input[type=number]:hover{
+    -webkit-transform: scale(.1);
+    -ms-transform: scale(.2);
+    transform: scale(1.04);
+}
+img{
+    transition: .3s;
+    width: 15%;
+}
+#logos{
+    text-align: center;
+    margin-top: 15px;
+}
+#corpo{
+    background-color: #413e3eb4;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 40%;
+    margin: auto;
+    margin-top: 3%;
+}
+#botao{
+    width: 50%;
+    height: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    transition: .3s;
+}
+#botao:hover{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+
+#resultado{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family:sans-serif;
+    font-weight: bold;
+    color: white;
+}
+footer{
+    display: flex;
+    width: 121px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.logo{
+    width: 30px;
+    margin: auto;
+}
+.logo:hover{
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    -webkit-transform: rotateZ(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.5);
+}
+.logos{
+    padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    
+    #corpo{
+        max-width: 90%;
+    }
+    
+} 
